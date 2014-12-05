@@ -78,6 +78,7 @@
 </script>
 <!-- End Analytics -->
 
+<!-- <script type="text/javascript">var _jf = _jf || [];_jf.push(['p','30161']);_jf.push(['_setFont','wts43','css','.wts43']);_jf.push(['_setFont','wts43','alias','wts43']);(function(f,q,c,h,e,i,r,d){var k=f._jf;if(k.constructor===Object){return}var l,t=q.getElementsByTagName("html")[0],a=function(u){for(var v in k){if(k[v][0]==u){if(false===k[v][1].call(k)){break}}}},j=/\S+/g,o=/[\t\r\n\f]/g,b=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,g="".trim,s=g&&!g.call("\uFEFF\xA0")?function(u){return u==null?"":g.call(u)}:function(u){return u==null?"":(u+"").replace(b,"")},m=function(y){var w,z,v,u,x=typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):" ";if(z){u=0;while((v=w[u++])){if(z.indexOf(" "+v+" ")<0){z+=v+" "}}t[c]=s(z)}}},p=function(y){var w,z,v,u,x=arguments.length===0||typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):"";if(z){u=0;while((v=w[u++])){while(z.indexOf(" "+v+" ")>=0){z=z.replace(" "+v+" "," ")}}t[c]=y?s(z):""}}},n;k.push(["_eventActived",function(){p(h);m(e)}]);k.push(["_eventInactived",function(){p(h);m(i)}]);k.addScript=n=function(u,A,w,C,E,B){E=E||function(){};B=B||function(){};var x=q.createElement("script"),z=q.getElementsByTagName("script")[0],v,y=false,D=function(){x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;a("_eventInactived");B()};if(C){v=setTimeout(function(){D()},C)}x.type=A||"text/javascript";x.async=w;x.onload=x.onreadystatechange=function(G,F){if(!y&&(!x.readyState||/loaded|complete/.test(x.readyState))){y=true;if(C){clearTimeout(v)}x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;if(!F){setTimeout(function(){E()},200)}}};x.onerror=function(H,G,F){if(C){clearTimeout(v)}D();return true};x.src=u;z.parentNode.insertBefore(x,z)};a("_eventPreload");m(h);n(r,"text/javascript",false,3000)})(this,this.document,"className","jf-loading","jf-active","jf-inactive","//ds.justfont.com/js/stable/v/4.7/id/135957607818");</script> -->
 </head>
 
 
@@ -98,6 +99,7 @@
     <div class="slider-text">
     	<div id="slidecaption"></div>
     </div>   
+    
 	
 	<div class="control-nav">
         <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
@@ -154,8 +156,11 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Type of Work</li>
                         <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
+                        <!-- <li><a href="#filter" data-option-value=".design">Design</a></li>
                         <li><a href="#filter" data-option-value=".photography">Photography</a></li>
+                        <li><a href="#filter" data-option-value=".video">Video</a></li> -->
+                        <li><a href="#filter" data-option-value=".tainan">Tainan</a></li>
+                        <li><a href="#filter" data-option-value=".others">Others</a></li>
                         <li><a href="#filter" data-option-value=".video">Video</a></li>
                     </ul>
                 </nav>
@@ -166,114 +171,439 @@
             	<div class="row">
                 	<section id="projects">
                     	<ul id="thumbs">
+                    		
+                    		<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="8%ice 冰淇淋專門店" href="_include/img/work/full/img1.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img1.jpg" alt="台南市中西區西門路1段658-1號 台南小西門 1F<br />Gary:茶味很香的冰淇淋<br />Grace:好吃<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                    		
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Cape+ cafe 開普咖啡" href="_include/img/work/full/img2.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img2.jpg" alt="台南市東區崇仁街66巷3號<br />Gary:普通<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                        	
+                        	<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="doggie doggie" href="_include/img/work/full/img3.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img3.jpg" alt="台南市東區崇善路22號<br />Gary:二樓用餐環境舒適<br />Grace:狗狗~<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                    		
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Lazy Bones 懶骨頭美式早午餐" href="_include/img/work/full/img4.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img4.jpg" alt="台南市東區崇仁街72號<br />Gary:普通<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                        	
+                        	<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ORO咖啡" href="_include/img/work/full/img5.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img5.jpg" alt="台南市東區凱旋路105號<br />Gary:好吃偏貴<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                    		
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Room A" href="_include/img/work/full/img6.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img6.jpg" alt="台南市中西區西門路1段607號3樓<br />Gary:很多書，可以待很久，非常適合裝文青<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->
                         
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="_include/img/work/full/image-01-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
+                        	<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 video">
                             	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="是吉祥精緻火鍋館  台南市安平區新孝路128號" href="http://youtu.be/bi8JNIUvEKs">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Video">
+                                <img src="_include/img/work/thumbs/img7.jpg" alt="Video">
                             </li>
                         	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
+                        
+                            <!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 video">
                             	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="築地專賣壽司  台南市東區龍山街63號" href="http://youtu.be/PCvm6WVScZY">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-09.jpg" alt="Video">
+                                <img src="_include/img/work/thumbs/img8.jpg" alt="Video">
                             </li>
                         	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="一方 日朝食" href="_include/img/work/full/img9.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/work/thumbs/img9.jpg" alt="台南市北區東豐路245號<br />Gary:環境衛生不太好，地板黏黏的，筷匙也沒洗乾淨<br />推薦★★">
                             </li>
                         	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="大手燒" href="_include/img/work/full/img10.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/work/thumbs/img10.jpg" alt="中西區台南小西門大手燒<br />Gary:太貴啦，也不到好吃<br />推薦★★">
+                            </li>
+                        	<!-- End Item Project -->                        	
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="大森鐵板燒" href="_include/img/work/full/img11.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img11.jpg" alt="台南市安平區中華西路二段475號<br />Gary:裝潢很特別<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="小南蕨Le Petit Baron" href="_include/img/work/full/img12.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img12.jpg" alt="台南市中西區忠義路一段45號<br />Gary:冰普普，店內氣氛不錯<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="小巷裡的拾壹號" href="_include/img/work/full/img13.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img13.jpg" alt="台南市中西區衛民街143巷11號<br />Gary:非常好吃的早午餐<br />Grace:狗狗~~<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="小滿食堂" href="_include/img/work/full/img14.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img14.jpg" alt="台南市中西區國華街三段47號<br />Gary:潮指數滿分，但食物量太少啦!<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="木木之丘" href="_include/img/work/full/img15.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img15.jpg" alt="台南市東區東門路二段104巷11號<br />Gary:吃完再逛木作品<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 others">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="半九十茶屋" href="_include/img/work/full/img16.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img16.jpg" alt="高雄市中正四路71號<br />Gary:東西好吃茶好喝<br />推薦★★★★">
                             </li>
                         	<!-- End Item Project -->
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="白色貓頭鷹" href="_include/img/work/full/img17.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img17.jpg" alt="台南市東區東平路252巷2號<br />Gary:好吃，室內設計不錯<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        	
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="江戶子日本料理" href="_include/img/work/full/img18.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img18.jpg" alt="台南市東區東平路109之2號<br />Gary:平價&普通的日本料理<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                          	
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="老家創意料理" href="_include/img/work/full/img19.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img19.jpg" alt="台南市中西區赤崁街31-1號<br />Gary:好吃，中上吧<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->  
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="扶桑酒肆" href="_include/img/work/full/img20.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img20.jpg" alt="台南市中西區慶中街204號<br />Gary:好吃，雖說可以續飯，但只給我一匙=3=<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                          	                        	
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="初食手作廚房" href="_include/img/work/full/img21.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img21.jpg" alt="台南市中西區樹林街二段42號<br />Gary:這間吃好幾次，也許大家都吃他的早午餐，晚上沒什麼人<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="肥窩咖啡" href="_include/img/work/full/img22.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img22.jpg" alt="台南市北區開元路148巷24號<br />Gary:普通的早午餐<br />Grace:狗狗~~<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="柊御食事處" href="_include/img/work/full/img23.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img23.jpg" alt="台南市中西區樹林街二段264號<br />Gary:還OK啦<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="洋蔥咖哩工房" href="_include/img/work/full/img24.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img24.jpg" alt="台南市中西區永福路二段67號<br />Gary:台南少數好吃的咖哩<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="倉庫早頓" href="_include/img/work/full/img25.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img25.jpg" alt="台南市東區崇仁街5號<br />Gary:三明治專賣~ 喜歡三明治去吃~<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="豚骨家" href="_include/img/work/full/img26.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img26.jpg" alt="台南市中西區府中街22號<br />Gary:在有名的拉麵店裡。這家算很好吃的<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="野太郎日式丼飯" href="_include/img/work/full/img27.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img27.jpg" alt="台南市南台街91號<br />Gary:台南平價定食第一<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        	
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="魚小璐和洋廚房" href="_include/img/work/full/img28.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img28.jpg" alt="台南市永康區東橋十街70號<br />Gary:好吃歸好吃，但太多人排太久啦!<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                          	
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="鹿早茶屋" href="_include/img/work/full/img19.2pg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img29.jpg" alt="台南市中西區衛民街70巷1號<br />Gary:還OK啦，吃氣氛的<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->  
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="鹿角枝咖啡" href="_include/img/work/full/img30.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img30.jpg" alt="台南市中西區樹林街二段122號<br />Gary:太有名反而小失望，早午餐普普<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                           	
+                        	
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="愛堤卡莎" href="_include/img/work/full/img31.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img31.jpg" alt="台南市安平區郡平路56號<br />Gary:店內環境不錯，但餐點還好<br />推薦★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 others">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="慕哲咖啡" href="_include/img/work/full/img32.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img32.jpg" alt="台北市中正區紹興北街3號<br />Gary:提供插座!可以坐很久XD<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="韓國先生 大長今" href="_include/img/work/full/img33.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img33.jpg" alt="台南市林森路二段１０５號<br />Gary:東西都滿好吃的<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="麴町食堂兒玉傳統家庭料理" href="_include/img/work/full/img34.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img34.jpg" alt="台南市北區公園路710號<br />Gary:起司很多很過癮，紅了之後就沒去吃過了<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+                        
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 tainan">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="麵屋列" href="_include/img/work/full/img35.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img35.jpg" alt="台南市中西區城隍街50號<br />Gary:看鄉民負評很多，但實際上沒那麼糟?<br />推薦★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 others">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="戀花168義式餐廳" href="_include/img/work/full/img36.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/img36.jpg" alt="高雄市苓雅區興中一路445號<br />Gary:東西好吃，生意相當好!<br />推薦★★★★★">
+                            </li>
+                        	<!-- End Item Project -->                        	                     	
+                        	
                         </ul>
                     </section>
                     
@@ -285,162 +615,10 @@
 </div>
 <!-- End Our Work Section -->
 
-<!-- About Section -->
-<div id="about" class="page-alternate">
-<div class="container">
-    <!-- Title Page -->
-    <div class="row">
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">About Us</h2>
-                <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
-            </div>
-        </div>
-    </div>
-    <!-- End Title Page -->
-    
-    <!-- People -->
-    <div class="row">
-    	
-        <!-- Start Profile -->
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">CTO/Founder</span>
-                </div>
-                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
-            </div>
-            <h3 class="profile-name">John Doe</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            	
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- End Profile -->
-        
-        <!-- Start Profile -->
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Creative Director</span>
-                </div>
-                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
-            </div>
-            <h3 class="profile-name">Jane Helf</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            	
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- End Profile -->
-        
-        <!-- Start Profile -->
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
-                </div>
-                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
-            </div>
-            <h3 class="profile-name">Joshua Insanus</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            	
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- End Profile -->
-        
-    </div>
-    <!-- End People -->
-</div>
-</div>
-<!-- End About Section -->
 
-
-<!-- Contact Section -->
-<div id="contact" class="page">
-<div class="container">
-    <!-- Title Page -->
-    <div class="row">
-        <div class="span12">
-            <div class="title-page">
-                <h2 class="title">Get in Touch</h2>
-                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
-            </div>
-        </div>
-    </div>
-    <!-- End Title Page -->
-    
-    <!-- Contact Form -->
-    <div class="row">
-    	<div class="span9">
-        
-        	<form id="contact-form" class="contact-form" action="#">
-            	<p class="contact-name">
-            		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
-                </p>
-                <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
-                </p>
-                <p class="contact-message">
-                	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
-                </p>
-                <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
-                </p>
-                
-                <div id="response">
-                
-                </div>
-            </form>
-         
-        </div>
-        
-        <div class="span3">
-        	<div class="contact-details">
-        		<h3>Contact Details</h3>
-                <ul>
-                    <li><a href="#">hello@brushed.com</a></li>
-                    <li>(916) 375-2525</li>
-                    <li>
-                        Brushed Studio
-                        <br>
-                        5240 Vanish Island. 105
-                        <br>
-                        Unknow
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End Contact Form -->
-</div>
-</div>
-<!-- End Contact Section -->
 
 <!-- Twitter Feed -->
-<div id="twitter-feed" class="page-alternate">
+<!-- <div id="twitter-feed" class="page-alternate">
 	<div class="container">
     	<div class="row">
             <div class="span12">
@@ -453,11 +631,11 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Twitter Feed -->
 
 <!-- Socialize -->
-<div id="social-area" class="page">
+<!-- <div id="social-area" class="page">
 	<div class="container">
     	<div class="row">
             <div class="span12">
@@ -477,7 +655,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- End Socialize -->
 
 <!-- Footer -->
@@ -506,6 +684,5 @@
 <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="_include/js/main.js"></script> <!-- Default JS -->
 <!-- End Js -->
-
 </body>
 </html>
