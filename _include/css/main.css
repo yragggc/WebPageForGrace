@@ -32,6 +32,18 @@ body{
 	line-height:28px;
 }
 
+@font-face{
+	font-family: 'Titillium Web';
+	unicode-range: U+4E00-9FFF;
+	src: local(Microsoft JhengHei);
+}
+
+@font-face{
+	font-family: 'Titillium Web';
+	src: @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,200italic,300italic,600,400italic,600italic,700,900,700italic);
+	unicode-range: U+00-024F;
+}
+
 
 	
 	
